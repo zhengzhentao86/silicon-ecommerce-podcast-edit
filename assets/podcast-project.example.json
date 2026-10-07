@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "show_name": "硅基新电商",
+  "structure": ["highlights", "fixed_intro", "episode_intro", "body"],
+  "assets": {
+    "fixed_intro_dry": "assets/fixed-intro-dry.wav",
+    "opening_music": "assets/opening-music.wav",
+    "body_music": "assets/body-music.wav"
+  },
+  "candidate_settings": {
+    "highlight_seconds": [15, 25],
+    "music_below_voice_db": {"highlights": 13, "intro": 18, "body": 23.5},
+    "integrated_lufs": -16.5,
+    "max_true_peak_dbtp": -1.5
+  },
+  "unresolved_items": []
+}

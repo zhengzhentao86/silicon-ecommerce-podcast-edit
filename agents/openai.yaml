@@ -1,0 +1,4 @@
+interface:
+  display_name: "硅基新电商播客剪辑"
+  short_description: "剪辑科技商业访谈播客，处理精华、补录与配乐，并支持局部修改和音频核验"
+  default_prompt: "使用 $silicon-ecommerce-podcast-edit 剪辑这期《硅基新电商》播客，沿用现有节目结构并交付完整音频和试听。"

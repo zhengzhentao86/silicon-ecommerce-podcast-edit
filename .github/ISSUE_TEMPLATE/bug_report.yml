@@ -1,0 +1,25 @@
+name: 问题或使用反馈
+description: 提交最小复现或实际使用观察，帮助持续迭代
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: 请使用可公开的合成区间、合成素材或脱敏现象，不上传私人录音、完整转录和凭据。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 触发场景与环境
+      description: 当前操作、客户端和Python/FFmpeg版本。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 期望与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 最小复现或观察证据
+      description: 合成清单、执行步骤、脱敏错误或听感观察。
